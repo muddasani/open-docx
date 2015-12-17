@@ -1,0 +1,31 @@
+{
+  "name": "open-docx",
+  "version": "0.0.1",
+  "description": "Quickly split open a docx file",
+  "main": "open-docx.js",
+  "bin": {
+    "open-docx": "open-docx.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo 'BOOM' && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scienceai/open-docx.git"
+  },
+  "keywords": [
+    "docx",
+    "tool"
+  ],
+  "author": "Robin Berjon <robin@standardanalytics.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/scienceai/open-docx/issues"
+  },
+  "homepage": "https://github.com/scienceai/open-docx",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
