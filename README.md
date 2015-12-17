@@ -7,7 +7,7 @@ for human legibility.
 
 ## Installation
 
-  npm install open-docx
+    npm install open-docx
 
 This will make a `open-docx` tool available on your command line.
 
@@ -18,6 +18,6 @@ This will make a `open-docx` tool available on your command line.
 
 Just run:
 
-  open-docx path/to/document.docx output/directory
+    open-docx path/to/document.docx output/directory
 
 The output directory must not exist and will be created (but not at arbitrary depth).
