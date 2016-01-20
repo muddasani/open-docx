@@ -2,7 +2,7 @@
 
 var fs = require('fs')
   , path = require('path')
-  , exec = require('child_process').execSync
+  , execFile = require('child_process').execFileSync
   , findit = require('findit')
 ;
 
@@ -12,8 +12,8 @@ function die (msg) {
 }
 function run (cmd, args, env) {
   var cli = cmd + ' ' + args.join(' ');
-  console.log(cli);
-  var ret = exec(cli, env).toString('utf8');
+  console.log(cmd + ' ' + args.join(' '));
+  var ret = execFile(cmd, args, env).toString('utf8');
   if (ret) console.log(ret);
 }
 
