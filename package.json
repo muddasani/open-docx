@@ -1,6 +1,6 @@
 {
   "name": "open-docx",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Quickly split open a docx file",
   "main": "open-docx.js",
   "bin": {
